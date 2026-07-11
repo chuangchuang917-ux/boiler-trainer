@@ -4,11 +4,11 @@
 2026-07-11
 
 ## 專案目標
-1. 將學科 5 大 PDF 題庫（共 792 題）完整提取，並深度整合至原有的術科模擬器訓練系統中（[trainer.html](file:///c:/Users/alber/Desktop/antigravity/甲鍋考試/trainer.html)）。
+1. 將學科 5 大 PDF 題庫（共 792 題）完整提取，並深度整合至原有的術科模擬器訓練系統中（[index.html](file:///c:/Users/alber/Desktop/antigravity/甲鍋考試/index.html)）。
 2. 在 v3.0 版本中，進一步為系統無縫集成 **「504 題獨家手寫詳細解析數據庫」**，並解決 PDF 中不同科目/工作項目重複題號導致的解析覆蓋衝突問題，提供最高品質、100% 覆蓋的學科詳解刷題體驗。
 
 ## 產出
-*   **trainer.html** 位於 [trainer.html](file:///c:/Users/alber/Desktop/antigravity/甲鍋考試/trainer.html)（大小為 488 KB，已注入完整 504 題手寫解析與 JS 引擎）
+*   **index.html** 位於 [index.html](file:///c:/Users/alber/Desktop/antigravity/甲鍋考試/index.html)（大小為 488 KB，已注入完整 504 題手寫解析與 JS 引擎）
 *   **custom_explanations.json** 位於 [custom_explanations.json](file:///c:/Users/alber/Desktop/antigravity/甲鍋考試/custom_explanations.json)（收錄 504 條高質量、精準對應的手寫詳解數據庫）
 *   **gen_theory.py** 位於 [gen_theory.py](file:///C:/Users/alber/.gemini/antigravity-ide/brain/ee931362-630a-43be-b3f9-1822ea07da89/scratch/gen_theory.py)（更新為支援 `{subj}_{num}_{wi}` 複合鍵查找引擎）
 
@@ -54,7 +54,7 @@
 
 ### A. 電腦端使用
 雙擊直接用瀏覽器開啟（或啟動本地 HTTP 伺服器訪問）：
-[trainer.html](file:///c:/Users/alber/Desktop/antigravity/甲鍋考試/trainer.html)
+[index.html](file:///c:/Users/alber/Desktop/antigravity/甲鍋考試/index.html)
 
 *   **建議備考路徑**：
     1.  第一週：使用 **📚 分類練習** 搭配主動回想，快速過濾掉常識題，刷完 792 題。
@@ -76,9 +76,9 @@
 因為 PWA 功能必須執行在 **HTTPS 安全協定**（或 Localhost）下，請依照以下步驟將網頁部署並「安裝」至手機：
 
 1.  **免費託管（GitHub Pages 推薦）**：
-    *   將 `trainer.html`、`manifest.json`、`sw.js` 和 `boiler_app_icon.png` 四個檔案上傳至您的 GitHub Repository。
+    *   將 `index.html`、`manifest.json`、`sw.js` 和 `boiler_app_icon.png` 四個檔案上傳至您的 GitHub Repository。
     *   在 Repository 點選 **Settings** -> **Pages**，將 Branch 設為 `main` 或 `master` 並儲存。
-    *   數分鐘後您將獲得一個專屬的網址（例如 `https://您的帳號.github.io/專案名稱/trainer.html`）。
+    *   數分鐘後您將獲得一個專屬的網址（例如 `https://您的帳號.github.io/專案名稱/`）。
 2.  **手機端安裝**：
     *   **iPhone (iOS)**：使用 **Safari** 瀏覽器開啟該網址，點選下方「分享」按鈕，選擇 **「加入主畫面」(Add to Home Screen)**。
     *   **Android**：使用 **Chrome** 瀏覽器開啟該網址，點選右上角選單，選擇 **「安裝應用程式」** 或 **「新增至主畫面」**。

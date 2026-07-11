@@ -2,7 +2,7 @@
   "name": "甲種鍋爐操作人員訓練系統",
   "short_name": "甲鍋訓練系統",
   "description": "整合三種燃料操作程序、應檢人參考手冊、學術科題庫及詳細解析的備考系統。",
-  "start_url": "./trainer.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0d1117",
   "theme_color": "#1a1f2e",

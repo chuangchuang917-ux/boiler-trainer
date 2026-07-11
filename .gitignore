@@ -2,7 +2,7 @@
 *
 
 # 僅排除（允許追蹤）以下 PWA 運作所需檔案
-!trainer.html
+!index.html
 !manifest.json
 !sw.js
 !boiler_app_icon.png

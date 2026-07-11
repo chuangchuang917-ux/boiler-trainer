@@ -12,15 +12,15 @@
    * 約 1 分鐘後，上方會出現您的專屬 HTTPS 網址。
 
 2. **手機端下載與安裝**：
-   * **iPhone (Safari)**：使用 Safari 開啟網址 `https://chuangchuang917-ux.github.io/boiler-trainer/trainer.html`，點擊下方「分享」按鈕，選擇 **「加入主畫面」(Add to Home Screen)**。
-   * **Android (Chrome)**：使用 Chrome 開啟網址 `https://chuangchuang917-ux.github.io/boiler-trainer/trainer.html`，點選右上角選單，選擇 **「安裝應用程式」** 或 **「新增至主畫面」**。
+   * **iPhone (Safari)**：使用 Safari 開啟網址 `https://chuangchuang917-ux.github.io/boiler-trainer/`，點擊下方「分享」按鈕，選擇 **「加入主畫面」(Add to Home Screen)**。
+   * **Android (Chrome)**：使用 Chrome 開啟網址 `https://chuangchuang917-ux.github.io/boiler-trainer/`，點選右上角選單，選擇 **「安裝應用程式」** 或 **「新增至主畫面」**。
 
 3. **離線使用**：
    * 安裝完成後，手機桌面上會出現「甲鍋訓練系統」圖示。
    * 點開即為全螢幕 App 畫面，**在無網路環境（如捷運、考場外）依然可正常刷題與閱讀**，且答題進度與錯題本會儲存在手機中。
 
 ## 🛠️ 本專案核心檔案
-* `trainer.html`：網頁主程式（單網頁應用，包含題庫與詳解數據）。
+* `index.html`：網頁主程式（單網頁應用，包含題庫與詳解數據）。
 * `manifest.json`：設定 App 的啟動資訊與圖示。
 * `sw.js`：Service Worker 腳本，處理離線快取控制。
 * `boiler_app_icon.png`：App 桌面的火焰圖示。

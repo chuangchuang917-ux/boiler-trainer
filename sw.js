@@ -1,6 +1,6 @@
 const CACHE_NAME = 'boiler-trainer-v3';
 const ASSETS = [
-  './trainer.html',
+  './index.html',
   './manifest.json',
   './boiler_app_icon.png'
 ];
