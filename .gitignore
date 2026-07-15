@@ -9,3 +9,7 @@
 !walkthrough.md
 !README.md
 !.gitignore
+!.github/
+!.github/workflows/
+!.github/workflows/deploy.yml
+
